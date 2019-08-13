@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package>
     <name>celtic_gauniversal</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>OSL V3.0</license>
     <channel>community</channel>
     <extends/>
     <summary>Insert Google Universal Analytics tracking codes into your Magento</summary>
     <description>Insert Google Universal Analytics tracking codes into your Magento</description>
-    <notes>1.0.0 : first release</notes>
+    <notes>1.0.1 : add unpackaged file&#xD;
+1.0.0 : first release</notes>
     <authors><author><name>Hirokazu Nishi</name><user>hirokazu_n</user><email>nishi@principle-works.jp</email></author></authors>
-    <date>2014-03-06</date>
-    <time>04:54:06</time>
-    <contents><target name="magecommunity"><dir name="Celtic"><dir name="Gauniversal"><dir name="Block"><file name="Ecommerce.php" hash="911e7973f46f1a65dd092f7a57a56ef4"/><file name="Tag.php" hash="c835727cd006103bc17d364686b93b4e"/></dir><dir name="Helper"><file name="Data.php" hash="bb5efc36937fcbaf07f20df7da38a3a4"/></dir><dir name="etc"><file name="adminhtml.xml" hash="f4c2465ba095f4dad3b1d45160a7bb4b"/><file name="config.xml" hash="3b22e0dd25bed3f2e519a87d192ed471"/><file name="system.xml" hash="b93ad4e67ac2c31e5ca9b9f56d0a5982"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="celtic_gauniversal.xml" hash="84b11a6dd633719e7515644323c6e709"/></dir><dir name="template"><dir name="celtic_gauniversal"><file name="ecommerce.phtml" hash="de44f56d6f5040b4cd2dbf5bb6387017"/><file name="tag.phtml" hash="123a9b7f11f05bc93e21662baa9d0d8b"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="ja_JP"><file name="Celtic_Gauniversal.csv" hash="00d07d45067f7abef43a72745d470754"/></dir></target><target name="mageetc"><dir name="modules"><file name="Celtic_Gauniversal.xml" hash="3e9b9db09f64cc403666852c98b14714"/></dir></target></contents>
+    <date>2014-03-11</date>
+    <time>08:52:36</time>
+    <contents><target name="magecommunity"><dir name="Celtic"><dir name="Gauniversal"><dir name="Block"><file name="Ecommerce.php" hash="911e7973f46f1a65dd092f7a57a56ef4"/><file name="Tag.php" hash="c835727cd006103bc17d364686b93b4e"/></dir><dir name="Helper"><file name="Data.php" hash="bb5efc36937fcbaf07f20df7da38a3a4"/></dir><dir name="Model"><file name="Observer.php" hash="2bf4b3a349eafb7333cc94383bfc8148"/></dir><dir name="etc"><file name="adminhtml.xml" hash="f4c2465ba095f4dad3b1d45160a7bb4b"/><file name="config.xml" hash="76a3ae41398a55d6362f84e228ed0bb8"/><file name="system.xml" hash="b93ad4e67ac2c31e5ca9b9f56d0a5982"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="celtic_gauniversal.xml" hash="84b11a6dd633719e7515644323c6e709"/></dir><dir name="template"><dir name="celtic_gauniversal"><file name="ecommerce.phtml" hash="de44f56d6f5040b4cd2dbf5bb6387017"/><file name="tag.phtml" hash="123a9b7f11f05bc93e21662baa9d0d8b"/></dir></dir></dir></dir></dir></target><target name="magelocale"><dir name="ja_JP"><file name="Celtic_Gauniversal.csv" hash="00d07d45067f7abef43a72745d470754"/></dir></target><target name="mageetc"><dir name="modules"><file name="Celtic_Gauniversal.xml" hash="3e9b9db09f64cc403666852c98b14714"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.2.0</min><max>5.5.99</max></php></required></dependencies>
 </package>
