@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/celtic_gauniversal",
+    "type": "magento-module",
+    "license": "OSL-V3.0",
+    "homepage": "",
+    "description": "Insert Google Universal Analytics tracking codes into your Magento",
+    "authors": [
+    {
+        "name": "Hirokazu Nishi",
+        "email": "nishi@principle-works.jp"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
